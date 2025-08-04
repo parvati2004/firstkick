@@ -5,7 +5,7 @@ void main(){
   test('test API',()async{
     final response= await API.getMemes();
    
-    expect(response.success,true);
+    expect(response?.success,true);
 
   });
 }
